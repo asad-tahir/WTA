@@ -1,6 +1,16 @@
-{
-    "Profile": {
-        "StartWeight": {"int": { "min": 60, "max": 70 }},
-        "height": {"int": { "min": 160, "max": 160 }}
+"Profile": {
+    "name": { "string": {} },
+    "email": { "string": {} },
+    "password": { "string": {} },
+    "StartWeight": {"int": { "min": 60, "max": 70 }},
+    "height": {"int": { "min": 160, "max": 180 }},
+    "history": {
+    "hasMany": "Logs"
+    }
+},
+"Logs": {
+    "weight": { "string": {} },
+        "profile": {
+        "belongsTo": "Profile"
     }
 }
