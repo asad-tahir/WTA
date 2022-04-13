@@ -1,6 +1,6 @@
 {
     "Profile": {
-        "StartWeight": {"int": {}},
-        "height": {"int": {}}
+        "StartWeight": {"int": { "min": 0, "max": 1000000 }},
+        "height": {"int": { "min": 0, "max": 1000000 }}
     }
 }
