@@ -1,18 +1,13 @@
 {
     "Profile": {
-    "name": { "string": {} },
-    "email": { "string": ["admin@wta.com", "user@wta.com"] },
-    "password": { "string": ["1234"] },
-    "StartWeight": {"int": { "min": 60, "max": 70 }},
-    "height": {"int": { "min": 160, "max": 180 }},
-    "logs": {
-    "hasMany": "Log"
-    }
-    },
-    "Log": {
-        "weight": { "int": { "min": 60, "max": 70 } },
-            "profile": {
-            "belongsTo": "Profile"
+        "name": { "string": {} },
+        "email": { "string": ["admin@wta.com", "user@wta.com"] },
+        "password": { "string": ["1234"] },
+        "StartWeight": {"int": { "min": 60, "max": 70 }},
+        "height": {"int": { "min": 160, "max": 180 }},
+        "logs": {
+            "weight": [ "int": { "min": 60, "max": 70 } ],
         }
-    }
+    },
+
 }
