@@ -1,6 +1,6 @@
 {
-    "Profile": {
-        "StartWeight": 70,
-        "height": 160
+    "profile": {
+        "StartWeight": {"int": {}},
+        "height": {"int": {}}
     }
 }
