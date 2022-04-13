@@ -1,5 +1,5 @@
 {
-    "profile": {
+    "Profile": {
         "StartWeight": {"int": {}},
         "height": {"int": {}}
     }
