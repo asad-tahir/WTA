@@ -6,7 +6,7 @@
         "StartWeight": {"int": { "min": 60, "max": 70 }},
         "height": {"int": { "min": 160, "max": 180 }},
         "logs": {
-            "weight": [ "int": { "min": 60, "max": 70 } ],
+            "weight": [ {"int": { "min": 60, "max": 70 }} ],
         }
     },
 
