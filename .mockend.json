@@ -5,12 +5,12 @@
     "password": { "string": ["1234"] },
     "StartWeight": {"int": { "min": 60, "max": 70 }},
     "height": {"int": { "min": 160, "max": 180 }},
-    "history": {
-    "hasMany": "Logs"
+    "logs": {
+    "hasMany": "Log"
     }
     },
-    "Logs": {
-        "weight": { "string": {} },
+    "Log": {
+        "weight": { "int": { "min": 60, "max": 70 } },
             "profile": {
             "belongsTo": "Profile"
         }
